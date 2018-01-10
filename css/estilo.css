@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header {
+  background-color: lightgray;
+  width: 100%;
+  height: auto;
+  margin:0;
+  border-bottom-style: double;
+  border-bottom-color: black;
+}
+
+.header h1 {
+  padding-left: 0.5em;
+  text-align: left;
+}
+
+#header_image {
+  width: 8rem;
+}
+
+.news-title {
+  margin-left: 1em;
+  display: block;
+}
+
+.subtitle {
+  margin-left: 1em;
+  display: block;
+}
+
+.subtitle h5 {
+  margin-top: -1em;
+}
+
+.news-text {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+}
+
+.news-links {
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+}
+
+.side-banner {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.footer {
+  background-color: cyan;
+  width: 100px;
+  height: 100px;
+}
