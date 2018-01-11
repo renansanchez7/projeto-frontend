@@ -37,20 +37,33 @@ body {
   display: block;
 }
 
-.subtitle h5 {
+.subtitle * {
   margin-top: -1em;
 }
 
 .news-text {
-  background-color: lightblue;
-  width: 100px;
-  height: 100px;
+  /* background-color: lightblue; */
+  padding: 1em;
+  text-align: justify;
+  width: 100%;
+  height: auto;
 }
 
 .news-links {
-  background-color: violet;
-  width: 100px;
-  height: 100px;
+  color:blue;
+  width: auto;
+  height: auto;
+  float: left;
+  /* display: inline-block; */
+}
+
+.links-list {
+  list-style: none;
+}
+
+li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .side-banner {
